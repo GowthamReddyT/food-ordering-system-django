@@ -90,7 +90,6 @@ Learning/
 
 
 
-
 Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/django-food-app.git
