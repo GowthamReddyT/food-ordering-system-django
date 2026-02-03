@@ -210,4 +210,5 @@ def payment(request):
     return render(request, "foods/payment.html", {
         "order": order,
         "address": address,
+
     })
