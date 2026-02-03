@@ -1,4 +1,5 @@
 **# food-ordering-system-django**
+
 🍽️ Django Food Ordering Application
 
 A full-stack Food Ordering Web Application built using Django, allowing users to browse food items, customize them with multiple options, manage a cart, place orders, and receive email confirmations.
