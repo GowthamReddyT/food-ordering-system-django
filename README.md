@@ -1,57 +1,45 @@
-**# food-ordering-system-django**
+# 🍽️ Food Ordering System – Django
 
-🍽️ Django Food Ordering Application
+A full-stack **Food Ordering Web Application** built using **Django**, allowing users to browse food items, customize them with multiple options, manage a cart, place orders, and receive email confirmations.
 
-A full-stack Food Ordering Web Application built using Django, allowing users to browse food items, customize them with multiple options, manage a cart, place orders, and receive email confirmations.
-The project uses Django Crispy Forms for clean form rendering and Bootstrap Icons for a modern UI.
+The project uses **Django Crispy Forms** for clean form rendering and **Bootstrap Icons** for a modern, responsive UI.
 
-🚀 Features
+---
 
-User authentication (Login / Logout)
+## 🚀 Features
 
-Browse food items with images and pricing
+- User Authentication (Login / Logout)
+- Browse food items with images and pricing
+- Food customization options:
+  - Base
+  - Size
+  - Toppings
+  - Sauces
+- Add to cart & update quantities
+- Order placement with order summary
+- Email confirmation after successful order
+- Django Admin panel for complete management
+- Responsive UI using Bootstrap
+- Clean forms using Django Crispy Forms
+- Modern UI with Bootstrap Icons
 
-Food customization options:
+---
 
-Base
+## 🛠️ Tech Stack
 
-Size
+**Backend:** Django (Python)  
+**Frontend:** HTML, CSS, Bootstrap  
+**Forms:** Django Crispy Forms  
+**Icons:** Bootstrap Icons  
+**Database:** SQLite (default)  
+**Authentication:** Django Auth System  
+**Email Service:** Gmail SMTP  
 
-Toppings
+---
 
-Sauces
+## 📁 Project Structure
 
-Add to cart & update quantities
-
-Order placement with summary
-
-Email confirmation after successful order
-
-Django Admin panel for full management
-
-Responsive UI using Bootstrap
-
-Clean forms using Django Crispy Forms
-
-Modern icons using Bootstrap Icons
-
-🛠️ Tech Stack
-
-Backend: Django (Python)
-
-Frontend: HTML, CSS, Bootstrap
-
-Forms: Django Crispy Forms
-
-Icons: Bootstrap Icons
-
-Database: SQLite (default)
-
-Email Service: Gmail SMTP
-
-Authentication: Django Auth System
-
-📁 Project Structure
+```text
 Learning/
 │
 ├── foodsapp/
@@ -91,7 +79,10 @@ Learning/
 
 
 
-Installation & Setup
+
+
+
+⚙️ Installation & Setup
 1️⃣ Clone the Repository
 git clone https://github.com/your-username/django-food-app.git
 cd django-food-app
@@ -103,7 +94,7 @@ source env/bin/activate    # Linux / Mac
 pip install django django-crispy-forms crispy-bootstrap5
 4️⃣ Configure Crispy Forms
 
-Add to settings.py:
+Add the following to settings.py:
 
 INSTALLED_APPS = [
     ...
@@ -127,7 +118,7 @@ Open in browser:
 http://127.0.0.1:8000/
 🔐 Admin Panel
 
-Access Django Admin:
+Access the Django Admin Panel:
 
 http://127.0.0.1:8000/admin/
 
@@ -154,7 +145,7 @@ EMAIL_USE_TLS = True
 EMAIL_HOST_USER = 'your_email@gmail.com'
 EMAIL_HOST_PASSWORD = 'your_app_password'
 
-Used for order confirmation emails.
+Used for sending order confirmation emails.
 
 🧾 Core Modules
 Foods App
@@ -171,7 +162,9 @@ Email utilities
 
 Learning App
 
-User-related models & views
+User-related models
+
+Authentication views
 
 🛒 Order Flow
 
@@ -189,15 +182,15 @@ Places order
 
 Receives email confirmation
 
-Admin views order in dashboard
+Admin views orders in dashboard
 
 🎨 UI & UX
 
 Bootstrap-based responsive layout
 
-Django Crispy Forms for clean forms
+Django Crispy Forms for clean form UI
 
-Bootstrap Icons for buttons and actions
+Bootstrap Icons for actions and buttons
 
 Organized templates and static files
 
@@ -209,7 +202,7 @@ Secure password hashing
 
 Django ORM (SQL injection safe)
 
-Auth-protected routes
+Authentication-protected routes
 
 🚧 Future Enhancements
 
@@ -217,7 +210,7 @@ Online payment gateway integration
 
 Order tracking system
 
-REST API with Django REST Framework
+REST API using Django REST Framework
 
 Docker support
 
