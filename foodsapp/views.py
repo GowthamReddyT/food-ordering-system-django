@@ -212,3 +212,4 @@ def payment(request):
         "address": address,
 
     })
+
