@@ -174,4 +174,5 @@ EMAIL_USE_TLS = True           # Set to False if using SSL on port 465
 EMAIL_HOST_USER = 'thotamadugula.gowtham@gmail.com'      # Your email address
 EMAIL_HOST_PASSWORD = 'efit fmqt qthu dawe'       # Use an app password, not your main password
 
+
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
