@@ -5,3 +5,4 @@ from learningapp.models import UserDetails
 admin.site.register(UserDetails)
 
 
+
